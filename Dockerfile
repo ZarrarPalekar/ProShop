@@ -11,6 +11,6 @@ COPY . /backend
 RUN npm install
 
 # Define the entry point for the container
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
 
 EXPOSE 8080/tcp
