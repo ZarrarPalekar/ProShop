@@ -1,5 +1,5 @@
 // import mongoose from "mongoose";
-import { MongoClient } from "mongodb";
+const { MongoClient } = require('mongodb');
 
 const connectDB = async () => {
   try {
