@@ -1,5 +1,6 @@
 // import mongoose from "mongoose";
-import {MongoClient} from "mongodb";
+import pkg from "mongodb";
+const {MongoClient} = pkg;
 
 const connectDB = async () => {
   try {
