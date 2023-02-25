@@ -7,7 +7,14 @@ const Footer = () => {
       <Container>
         <Row>
           <Col className="text-center py-3">
-            Copyright &copy; <a href="https://www.zarrarpalekar.com">Zarrar</a>{" "}
+            Copyright &copy; {new Date().getFullYear()}{" "}
+            <a
+              href="https://www.zarrarpalekar.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Zarrar
+            </a>{" "}
             E-Shop
           </Col>
         </Row>
